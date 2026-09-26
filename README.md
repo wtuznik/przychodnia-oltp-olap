@@ -20,6 +20,7 @@ Zasilana danymi z bazy OLTP, zbudowana w modelu gwiazdy, umożliwia analizę:
 ## Zawartość repozytorium 
 
 *oltp_schema.sql* -	Utworzenie bazy transakcyjnej OLTP wraz z przykładowymi danymi
+
 *olap_schema_etl.sql* -	Utworzenie hurtowni OLAP oraz proces ETL zasilający ją z bazy OLTP
 
 ## Model danych
