@@ -1,6 +1,6 @@
--- ============================================================
+
 -- Baza transakcyjna OLTP – Przychodnia lekarska
--- ============================================================
+
 
 CREATE DATABASE Przychodnia_OLTP;
 GO
@@ -239,9 +239,9 @@ CREATE TABLE dbo.OdwolanieWizyty (
 );
 GO
 
--- ============================================================
+
 -- Przykładowe dane
--- ============================================================
+
 
 INSERT INTO dbo.Pacjent (Imie, Nazwisko, DataUrodzenia, Telefon, Email)
 VALUES
