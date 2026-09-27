@@ -1,6 +1,6 @@
--- ============================================================
+
 -- Hurtownia danych OLAP – Przychodnia lekarska (model gwiazdy)
--- ============================================================
+
 
 CREATE DATABASE Przychodnia_OLAP;
 GO
@@ -102,9 +102,8 @@ CREATE TABLE dbo.FaktUsluga (
 );
 GO
 
--- ============================================================
+
 -- Proces ETL – zasilanie hurtowni danymi z bazy OLTP
--- ============================================================
 
 INSERT INTO dbo.Specjalizacja (SpecjalizacjaID, Nazwa)
 SELECT SpecjalizacjaID, Nazwa
